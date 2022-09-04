@@ -18,9 +18,18 @@
   </footer>
   <script type="text/babel">
     const Banner = () => {
+      const title = "Welcome to my website"
+      const subtitle = "this is a website for learning react"
+      const address = "https://www.netninja.dev"
+      const handleClick = ()=> {
+        console.log('you clicked me ')
+        console.log('this sire title is: ', title)
+      }
       return (
         <div>
-          <p>banner</p>
+          <h2>{title.toUpperCase()}</h2>
+          <p>{subtitle}</p>
+        <button onClick={handleClick}>click Me</button>
         </div>
       )
     }

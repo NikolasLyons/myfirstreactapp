@@ -25,7 +25,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Title />
+      <Title title="Events in your area" />
       { showEvents && (<div>
         <button onClick={()=>setShowEvents(false)}>Hide Events</button>
       </div>)}

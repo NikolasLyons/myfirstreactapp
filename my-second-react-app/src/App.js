@@ -19,6 +19,7 @@ function App() {
     setEvents((prevEvents) => {
       return [...prevEvents, event]
     })
+    setShowModal(false)
 
   }
 
